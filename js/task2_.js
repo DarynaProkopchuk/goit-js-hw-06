@@ -1,6 +1,5 @@
 
-const getUsersWithEyeColor = (array, color) => array.filter( user =>({eyeColor}) => (eyeColor));
-
+const getUsersWithEyeColor = (array, color) => array.filter(({eyeColor})=> eyeColor === color);
 
 console.log(getUsersWithEyeColor(users, 'blue'));
 /* [
